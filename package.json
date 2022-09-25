@@ -1,0 +1,19 @@
+{
+  "name": "csc-394-assignment-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "local": "nodemon app.js"
+  },
+  "author": "Oziel Hernandez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "pg": "^8.8.0",
+    "pg-promise": "^10.12.0",
+    "pug": "^3.0.2"
+  }
+}
